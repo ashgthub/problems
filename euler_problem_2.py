@@ -48,7 +48,8 @@ def main():
     except ValueError:
         usage()
     else:
-        print 'The sum of the even-valued terms is %s' % (fib_sum,)
+        print 'The sum of the fibonacci sequence even valued terms not' \
+              ' exceeding four million is %s' % (fib_sum,)
 
 if __name__ == '__main__':
     main()
